@@ -1,0 +1,95 @@
+id: идентификатор пользователя, integer
+first_name: имя, string
+last_name: фамилия, string
+is_closed: скрыт ли профиль пользователя настройками приватности, boolean
+can_access_closed: может ли текущий пользователь видеть профиль при is_closed = 1 (например, он есть в друзьях), boolean
+
+bdate: дата рождения, string
+
+books: содержимое поля «Любимые книги» из профиля пользователя, string
+
+albums_counters: количество фотоальбомов, integer
+videos_counters: количество видеозаписей, integer
+audios_counters: количество аудиозаписей, integer
+photos_counters: количество фотографий, integer
+groups_counters: количество сообществ, integer
+clips_counters: количество клипов, integer
+clips_followers_counters: количество понравившихся клипов, integer
+followers_counters: количество подписчиков, integer
+gifts_counters: количество подарков, integer
+pages_counters: количество объектов в блоке «Интересные страницы», integer
+subscriptions_counters: количество подписок на пользователей, integer
+user_photos_counters: количество фотографий с пользователем, integer
+articles_counters:
+
+games: содержимое поля «Любимые игры» из профиля, string
+
+interests: содержимое поля «Интересы» из профиля, string
+
+movies: содержимое поля «Любимые фильмы» из профиля пользователя, string
+
+music: содержимое поля «Любимая музыка» из профиля пользователя, string
+
+personal:
+political_personal:
+  - 1 — коммунистические
+  - 2 — социалистические
+  - 3 — умеренные
+  - 4 — либеральные
+  - 5 — консервативные
+  - 6 — монархические
+  - 7 — ультраконсервативные
+  - 8 — индифферентные
+  - 9 — либертарианские
+religion_personal: мировоззрение, string
+religion_id_personal: id мировоззрение, integer
+inspired_by_personal: источники вдохновения, string
+people_main_personal:
+  - 1 — ум и креативность
+  - 2 — доброта и честность
+  - 3 — красота и здоровье
+  - 4 — власть и богатство
+  - 5 — смелость и упорство
+  - 6 — юмор и жизнелюбие
+life_main_personal:
+  - 1 — семья и дети
+  - 2 — карьера и деньги
+  - 3 — развлечения и отдых
+  - 4 — наука и исследования
+  - 5 — совершенствование мира
+  - 6 — саморазвитие
+  - 7 — красота и искусство
+  - 8 — слава и влияние
+smoking_personal:
+  - 1 — резко негативное
+  - 2 — негативное
+  - 3 — компромиссное
+  - 4 — нейтральное
+  - 5 — положительное
+alcohol_personal:
+  - 1 — резко негативное
+  - 2 — негативное
+  - 3 — компромиссное
+  - 4 — нейтральное
+  - 5 — положительное
+langs_personal: языки, array
+
+sex: 
+  - 1 — женский
+  - 2 — мужской
+  - 0 — пол не указан
+
+universities:
+id_universities: идентификатор университета, integer
+country_universities: идентификатор страны, в которой расположен университет, integer
+city_universities: идентификатор города, в котором расположен университет, integer
+name_universities: наименование университета, string
+faculty_universities: идентификатор факультета, integer
+faculty_name_universities: наименование факультета, string
+chair_universities: идентификатор кафедры, integer
+chair_name_universities: наименование кафедры, string
+graduation_universities: год окончания обучения, integer
+education_form_universities: форма обучения, string
+education_status_universities: статус (например, «Выпускник (специалист)»), string
+
+
