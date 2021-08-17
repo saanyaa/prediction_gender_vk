@@ -4,19 +4,7 @@ last_name: фамилия, string
 is_closed: скрыт ли профиль пользователя настройками приватности, boolean
 can_access_closed: может ли текущий пользователь видеть профиль при is_closed = 1 (например, он есть в друзьях), boolean
 
-bdate: дата рождения, string
-
-books: содержимое поля «Любимые книги» из профиля пользователя, string
-
-games: содержимое поля «Любимые игры» из профиля, string
-
-interests: содержимое поля «Интересы» из профиля, string
-
-movies: содержимое поля «Любимые фильмы» из профиля пользователя, string
-
-music: содержимое поля «Любимая музыка» из профиля пользователя, string
-
-relation:
+relation: семейное положение
 
 personal_political:
   - 1 — коммунистические
@@ -61,11 +49,6 @@ personal_alcohol:
   - 5 — положительное
 personal_langs: языки, array
 
-sex: 
-  - 1 — женский
-  - 2 — мужской
-  - 0 — пол не указан
-
 universities_id: идентификатор университета, integer
 universities_country: идентификатор страны, в которой расположен университет, integer
 universities_city: идентификатор города, в котором расположен университет, integer
@@ -77,3 +60,8 @@ universities_chair_name: наименование кафедры, string
 universities_graduation: год окончания обучения, integer
 universities_education_form: форма обучения, string
 universities_education_status: статус (например, «Выпускник (специалист)»), string
+
+sex: 
+  - 1 — женский
+  - 2 — мужской
+  - 0 — пол не указан
